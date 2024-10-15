@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* select by attribute */
+        ul,ol,h2{
+            color: darkred;
+        }
+        
+        /* descendant selector */
+        div li{
+            background-color: pink;
+        }
+
+
+        /* select by child */
+        div>p{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello</h1>
+    <ul>
+        <li>papa</li>
+        <li>mumma</li>
+        <li>dada</li>
+        <li>maa</li>
+    </ul>
+    <h2 contenteditable="true">how are you?</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae ad ratione architecto. Lorem
+         ipsum dolor sit amet consectetur adipisicing elit. Eos, doloribus!</p>
+         
+    <div>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <h3>heading 3</h3>
+        <ol>
+            <li>A</li>
+            <li>B</li>
+            <li>C</li>
+            <li>D</li>
+            <li>E</li>
+        </ol>
+    </div>
+
+</body>
+</html>
